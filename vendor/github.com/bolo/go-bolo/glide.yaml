@@ -1,0 +1,3 @@
+package: github.com/bolo/go-bolo
+import:
+- package: github.com/pebbe/zmq4

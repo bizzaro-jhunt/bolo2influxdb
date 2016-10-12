@@ -1,0 +1,66 @@
+hash: f615a329778a4884cc2f2390f0bfcb01635b5c0ea2ff0cd9d860515b39a75970
+updated: 2016-10-12T15:26:50.457224259-04:00
+imports:
+- name: github.com/bolo/go-bolo
+  version: c16e77edebbc26ee7f5650a510ec052d4bdf6844
+- name: github.com/cloudfoundry-community/go-cfclient
+  version: c783aa0efe78706e9d98ffc4a84f0d42cd322ac8
+- name: github.com/cloudfoundry/noaa
+  version: b427932415f2771cb236f708977d3d64696f06d4
+  subpackages:
+  - consumer
+  - consumer/internal
+  - errors
+- name: github.com/cloudfoundry/sonde-go
+  version: a8900cb06815469da901e8f3f6bbe15c9e798291
+  subpackages:
+  - events
+- name: github.com/gogo/protobuf
+  version: 0394392b81058a7f972029451f06e528bb18ba50
+  subpackages:
+  - proto
+  - gogoproto
+  - protoc-gen-gogo/descriptor
+- name: github.com/golang/protobuf
+  version: df1d3ca07d2d07bba352d5b73c4313b4e2a6203e
+  subpackages:
+  - proto
+- name: github.com/gorilla/websocket
+  version: 2d1e4548da234d9cb742cc3628556fef86aafbac
+- name: github.com/influxdata/influxdb
+  version: 31169512f436b7da8992530ed1e80d50c788a642
+  subpackages:
+  - client/v2
+  - models
+  - pkg/escape
+- name: github.com/pebbe/zmq4
+  version: eccbb48ddab7c3989994739b07868056997893da
+- name: github.com/starkandwayne/goutils
+  version: 6fde490f64c2112f5d858389293170b6542eb013
+  subpackages:
+  - log
+- name: github.com/starkandwayne/metrics
+  version: f297b3236b8b4f4bdcd14285234d617b3f093433
+  subpackages:
+  - influxdb
+- name: github.com/voxelbrain/goptions
+  version: 26cb8b04692384f4dc269de3b5fcf3e2ef78573e
+- name: golang.org/x/net
+  version: 7dbad50ab5b31073856416cdcfeb2796d682f844
+  subpackages:
+  - context
+- name: golang.org/x/oauth2
+  version: 2baa8a1b9338cf13d9eeb27696d761155fa480be
+  subpackages:
+  - internal
+- name: google.golang.org/appengine
+  version: 596d349602aa23355ff46ade49ebfeb99c0fc550
+  subpackages:
+  - urlfetch
+  - internal
+  - internal/urlfetch
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/remote_api
+testImports: []

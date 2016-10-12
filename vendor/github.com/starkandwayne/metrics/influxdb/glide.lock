@@ -1,0 +1,28 @@
+hash: d989c35dc0b98128e6992a2b3a0329e24fe968ae9fd5977e136a428b3c570037
+updated: 2016-10-12T15:22:34.700149354-04:00
+imports:
+- name: github.com/bolo/go-bolo
+  version: c16e77edebbc26ee7f5650a510ec052d4bdf6844
+- name: github.com/cloudfoundry/sonde-go
+  version: a8900cb06815469da901e8f3f6bbe15c9e798291
+  subpackages:
+  - events
+- name: github.com/gogo/protobuf
+  version: 6abcf94fd4c97dcb423fdafd42fe9f96ca7e421b
+  subpackages:
+  - gogoproto
+  - proto
+  - protoc-gen-gogo/descriptor
+- name: github.com/influxdata/influxdb
+  version: ff307047057b7797418998a4ed709b0c0f346324
+  subpackages:
+  - client/v2
+  - models
+  - pkg/escape
+- name: github.com/pebbe/zmq4
+  version: eccbb48ddab7c3989994739b07868056997893da
+- name: github.com/starkandwayne/goutils
+  version: 6fde490f64c2112f5d858389293170b6542eb013
+  subpackages:
+  - log
+testImports: []

@@ -1,0 +1,6 @@
+hash: 84a4bf94c576c19c2be298ef12e9a6da3f240ae0dcc25201d0dcb2a03ebc9083
+updated: 2016-10-12T14:51:08.566579857-04:00
+imports:
+- name: github.com/pebbe/zmq4
+  version: eccbb48ddab7c3989994739b07868056997893da
+testImports: []

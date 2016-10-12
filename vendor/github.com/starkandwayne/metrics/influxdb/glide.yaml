@@ -1,0 +1,13 @@
+package: github.com/starkandwayne/metrics/influxdb
+import:
+- package: github.com/bolo/go-bolo
+- package: github.com/cloudfoundry/sonde-go
+  subpackages:
+  - events
+- package: github.com/influxdata/influxdb
+  version: ~1.0.2
+  subpackages:
+  - client/v2
+- package: github.com/starkandwayne/goutils
+  subpackages:
+  - log
